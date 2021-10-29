@@ -1,0 +1,75 @@
+.hero-container{
+    transform: translateY(80px);
+    background-image: url(../img/backGround.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 250px;
+}
+.hero-container h1{
+    font-size: 110px;
+    font-weight: 100;
+    margin-top: 150px;
+    color: aliceblue;
+}
+.hero-container p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.hero-container button{
+    color: aliceblue;
+    font-size: 16px;
+    background-color: rgb(39, 139, 206);
+    cursor: pointer;
+    border: none;
+    width:400px;
+    height: 100px;
+}
+.hero-container button:hover{
+    background-color: rgb(211, 145, 23);
+}
+.bax{
+    position: absolute;
+    background-color: rgb(250, 245, 245);
+    height: 18%;
+    bottom: -9%;
+    display: flex;
+    align-items: center;
+}
+
+.bax input{
+    height: 30px;
+    width: 100%;
+}
+.bax button{
+    width: 100%;
+    height: 30px;
+    font-size: 26px;
+}
+.sss{
+    margin-bottom: 10px;
+}
+
+@media(max-width:750px){
+    .hero-container h1{
+        font-size: 50px;
+    }
+    .hero-container p{
+        font-size: 16px;
+    }
+    .hero-container button{
+        font-size: 16px;
+        width:200px;
+        height: 50px;
+    }
+}

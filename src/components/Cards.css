@@ -1,0 +1,37 @@
+img{
+    width: 100%;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top h1{
+    margin-bottom: 20px;
+    color: rgb(161, 166, 228);
+}
+
+.top p{
+    color: rgb(149, 156, 110);
+    margin-bottom: 50px;
+}
+
+.q{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.q button{
+    width: 30%;
+    height: 60px;
+    border: none;
+    background-color: rgb(118, 129, 231);
+}
+
+.q button:hover{
+    background-color: orange;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.card{
+    position: relative;
+    margin-top: 20px;
+}
+.info{
+    display: none;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    top:0px;
+    right: 0px;
+    color: aliceblue;
+}
+.info h1{
+    font-size: 28px;
+    margin-top: 5%;
+    font-weight: 100;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+.info p{
+    transition: all 0.5s ease-in-out;
+    margin-left: 5%;
+}
+
+.info button{
+    width: 150px;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 30%;
+    cursor: pointer;
+    border: none;
+}
+.info button:hover{
+    background-color: rgb(216, 142, 5);
+}
+
+.card:hover>.info{
+    display: block;
+    background-color: rgba(69, 126, 248, 0.377);
+    transform: translateX(0);
+}

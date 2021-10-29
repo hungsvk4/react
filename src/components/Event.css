@@ -1,0 +1,45 @@
+.event{
+    margin-top: 100px;
+    position: relative;
+    height: 100vh;
+    background: url(../img/event.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+
+.info-e{
+    position: absolute;
+    background-color: rgba(250, 235, 215, 0.185);
+    top:10%;
+    bottom: 10%;
+    right: 10%;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-e h1{
+    font-weight: 100;
+    margin: 20px 10px;
+    color: rgb(5, 52, 94);
+}
+
+.info-e p {
+    color: rgb(13, 70, 117);
+    margin: 20px 10px;
+}
+
+.info-e button{
+    align-self: center;
+    width: 50%;
+    height: 10%;
+    background-color: rgba(0, 110, 255, 0.644);
+    border: none;
+    color: orange;
+}
+
+.info-e button:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: rgb(30, 34, 37);
+}
